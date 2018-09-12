@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var game: String? = nil
+    var score = 5.1
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

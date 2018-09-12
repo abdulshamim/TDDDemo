@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014EF7180169EBDFF34539CA /* Pods_TDDDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4322EF4832B4E9C92ADAC71F /* Pods_TDDDemoUITests.framework */; };
+		0A07BE8ABDE4F256C8210528 /* Pods_TDDDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F73A0B04736BB0EDA99A0 /* Pods_TDDDemo.framework */; };
+		63FC865394FDDAF7AFC50EF0 /* Pods_TDDDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423E877FA7EE17F22F0197DB /* Pods_TDDDemoTests.framework */; };
 		F1706533214931E0001A9D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1706532214931E0001A9D41 /* AppDelegate.swift */; };
 		F1706535214931E0001A9D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1706534214931E0001A9D41 /* ViewController.swift */; };
 		F1706538214931E0001A9D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1706536214931E0001A9D41 /* Main.storyboard */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		061D31DD76223636A6F22AED /* Pods-TDDDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDDDemoTests/Pods-TDDDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		30F5CC6D2D1421DEACE3C2A2 /* Pods-TDDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDDDemo/Pods-TDDDemo.release.xcconfig"; sourceTree = "<group>"; };
+		423E877FA7EE17F22F0197DB /* Pods_TDDDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDDDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4322EF4832B4E9C92ADAC71F /* Pods_TDDDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDDDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		627F73A0B04736BB0EDA99A0 /* Pods_TDDDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDDDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AD1C9212CC1FC0CE5A55BD /* Pods-TDDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDDDemo/Pods-TDDDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9ACD84913B18D80A5757019A /* Pods-TDDDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDDDemoUITests/Pods-TDDDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C076A2591DDBB51042143B1D /* Pods-TDDDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDDDemoUITests/Pods-TDDDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB26FBCD5761DF18DD10D42D /* Pods-TDDDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDDDemoTests/Pods-TDDDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F170652F214931E0001A9D41 /* TDDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1706532214931E0001A9D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1706534214931E0001A9D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A07BE8ABDE4F256C8210528 /* Pods_TDDDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FC865394FDDAF7AFC50EF0 /* Pods_TDDDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014EF7180169EBDFF34539CA /* Pods_TDDDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		278F7B3B873074B4ADEFF526 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65AD1C9212CC1FC0CE5A55BD /* Pods-TDDDemo.debug.xcconfig */,
+				30F5CC6D2D1421DEACE3C2A2 /* Pods-TDDDemo.release.xcconfig */,
+				EB26FBCD5761DF18DD10D42D /* Pods-TDDDemoTests.debug.xcconfig */,
+				061D31DD76223636A6F22AED /* Pods-TDDDemoTests.release.xcconfig */,
+				9ACD84913B18D80A5757019A /* Pods-TDDDemoUITests.debug.xcconfig */,
+				C076A2591DDBB51042143B1D /* Pods-TDDDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C92663A451CC55B84EA20CE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				627F73A0B04736BB0EDA99A0 /* Pods_TDDDemo.framework */,
+				423E877FA7EE17F22F0197DB /* Pods_TDDDemoTests.framework */,
+				4322EF4832B4E9C92ADAC71F /* Pods_TDDDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F1706526214931DF001A9D41 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				F1706549214931E1001A9D41 /* TDDDemoTests */,
 				F1706554214931E1001A9D41 /* TDDDemoUITests */,
 				F1706530214931E0001A9D41 /* Products */,
+				278F7B3B873074B4ADEFF526 /* Pods */,
+				C92663A451CC55B84EA20CE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F170655A214931E1001A9D41 /* Build configuration list for PBXNativeTarget "TDDDemo" */;
 			buildPhases = (
+				A814890F7E7C2B61FDC9A4AF /* [CP] Check Pods Manifest.lock */,
 				F170652B214931E0001A9D41 /* Sources */,
 				F170652C214931E0001A9D41 /* Frameworks */,
 				F170652D214931E0001A9D41 /* Resources */,
@@ -152,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F170655D214931E1001A9D41 /* Build configuration list for PBXNativeTarget "TDDDemoTests" */;
 			buildPhases = (
+				935FE7F4C12B0480EF20DC71 /* [CP] Check Pods Manifest.lock */,
 				F1706542214931E1001A9D41 /* Sources */,
 				F1706543214931E1001A9D41 /* Frameworks */,
 				F1706544214931E1001A9D41 /* Resources */,
+				EEBC6FD2999C76282E13DCAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1706560214931E1001A9D41 /* Build configuration list for PBXNativeTarget "TDDDemoUITests" */;
 			buildPhases = (
+				4DC4C395D02FEE0B98E8EA9B /* [CP] Check Pods Manifest.lock */,
 				F170654D214931E1001A9D41 /* Sources */,
 				F170654E214931E1001A9D41 /* Frameworks */,
 				F170654F214931E1001A9D41 /* Resources */,
@@ -253,6 +297,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DC4C395D02FEE0B98E8EA9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDDDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		935FE7F4C12B0480EF20DC71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDDDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A814890F7E7C2B61FDC9A4AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDDDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEBC6FD2999C76282E13DCAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TDDDemoTests/Pods-TDDDemoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDDDemoTests/Pods-TDDDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F170652B214931E0001A9D41 /* Sources */ = {
@@ -432,14 +553,12 @@
 		};
 		F170655B214931E1001A9D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AD1C9212CC1FC0CE5A55BD /* Pods-TDDDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TDDDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clicklabs.TDDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -449,14 +568,12 @@
 		};
 		F170655C214931E1001A9D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F5CC6D2D1421DEACE3C2A2 /* Pods-TDDDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TDDDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clicklabs.TDDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -466,16 +583,13 @@
 		};
 		F170655E214931E1001A9D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB26FBCD5761DF18DD10D42D /* Pods-TDDDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TDDDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clicklabs.TDDDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -486,16 +600,13 @@
 		};
 		F170655F214931E1001A9D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061D31DD76223636A6F22AED /* Pods-TDDDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TDDDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clicklabs.TDDDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,15 +617,12 @@
 		};
 		F1706561214931E1001A9D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ACD84913B18D80A5757019A /* Pods-TDDDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TDDDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clicklabs.TDDDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -525,15 +633,12 @@
 		};
 		F1706562214931E1001A9D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C076A2591DDBB51042143B1D /* Pods-TDDDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TDDDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clicklabs.TDDDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -9,11 +9,12 @@
 import XCTest
 @testable import TDDDemo
 
+
 class TDDDemoTests: XCTestCase {
     
+    var viewController = ViewController()
+    
     override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
@@ -21,9 +22,8 @@ class TDDDemoTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testScore() {
+      XCTAssert(viewController.score > 5, "Your score is low.")
     }
     
     func testPerformanceExample() {
