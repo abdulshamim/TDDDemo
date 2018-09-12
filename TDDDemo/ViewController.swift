@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     var game: String? = nil
-    var score = 6
+    var score = 4
     
     override func viewDidLoad() {
         super.viewDidLoad()
