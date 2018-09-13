@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var game: String? = nil
     var score = 6
     
     override func viewDidLoad() {
