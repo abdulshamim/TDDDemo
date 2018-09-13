@@ -5,6 +5,7 @@ osx_image: xcode9.3 #2
 
 jobs:
   include:
-- script: xcodebuild clean build test -project TDDDemo.xcodeproj -scheme TDDDemo -destination "platform=iOS Simulator,name=iPhone 6, OS=11.3" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+- script: xcodebuild clean build test -project TDDDemo.xcodeproj -scheme TDDDemo -destination "platform=iOS Simulator,name=iPhone 6, OS=11.3" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -enableCodeCoverage YES
+    after_script: bash <(curl -s https://codecov.io/bash) -t e5f99a16-9db9-4a1f-810b-8ff675e4316f
 
 
