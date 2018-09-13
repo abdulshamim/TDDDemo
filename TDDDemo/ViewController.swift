@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var score = 6
+    var score = 3
     
     override func viewDidLoad() {
         super.viewDidLoad()
